@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/MrHuhao/NSString-URLEncoding.git", :tag => "0.0.1" }
-  s.source_files  = "/*.h","/*.m"
-  s.public_header_files = "/*.h"
+  s.source_files  = "/*.h","/*.m","/*/*.h","/*/*.m"
+  s.public_header_files = "/*.h","/*/*.h"
 
 end
